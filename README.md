@@ -9,7 +9,7 @@ If you want to test this out, here's a few things to know:
 1. The 'schema.sql' creates the table needed. Alternatively, you can do it manually by creating a database and run the following query:
 ```sql
 CREATE TABLE users (
-  id int(11) NOT NULL AUTO_INCREMENT,
+  id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   first_name varchar(128) NOT NULL,
   last_name varchar(128) NOT NULL,
   user_id varchar(128) NOT NULL,
