@@ -2,6 +2,6 @@
     $dbServer = '';
     $dbUsername = '';
     $dbPassword = '';
-    $dbName = 'loginsys';
+    $dbName = '';
     $conn = mysqli_connect($dbServer, $dbUsername, $dbPassword, $dbName);
 ?>

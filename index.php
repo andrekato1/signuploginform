@@ -82,27 +82,13 @@
     </div>
 
     <div class="about">
-        <p>This is a simple sign up/login form built with HTML, CSS, JavaScript/jQuery and PHP/MySQL.
-            <br>
-            <br> This page was made intentionally minimal, the only purpose being to test my personal skills.
-            <br>
-            <br> This is my first attempt to implement back-end technologies to my code. Although there is nothing too fancy,
-            bugs may be present.
-            <br>
-            <br> Also, please note that I haven't made this page following responsive layout directives, though it should look
-            fine most of the time.</p>
+        <p>This is a simple sign up/login form built with HTML, CSS, JavaScript/jQuery and PHP/MySQL.</p>
 
         <p>Features (basically does what it should do):
             <ol>
                 <li>Takes you to a "Members' Area" after login</li>
                 <li>You get the option to logout after you login</li>
-                <li>Your password is hashed using the default PHP hasher</li>
-            </ol>
-            <p>TODO:</p>
-            <ol>
-                <li>Fix the "About" button (It scrolls a fixed amount of pixels instead of scrolling to the second section)</li>
-                <li>Make a responsive version of this</li>
-                <li>Make a members area that doesn't look like crap</li>
+                <li>You can also logout, of course</li>
             </ol>
         </p>
     </div>
